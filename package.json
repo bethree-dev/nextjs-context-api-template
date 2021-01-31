@@ -8,6 +8,8 @@
       "start": "next start"
    },
    "dependencies": {
+      "@unform/core": "^2.1.4",
+      "@unform/web": "^2.1.4",
       "antd": "^4.11.2",
       "axios": "^0.21.1",
       "framer": "^1.2.16",
