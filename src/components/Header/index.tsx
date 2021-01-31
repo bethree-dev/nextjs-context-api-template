@@ -1,13 +1,13 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import styles from './index.module.scss';
 
 const Header: React.FC = () => {
-   return (
-      <div className="header">
-         <nav></nav>
-      </div>
-   );
+  return (
+    <div className={styles.header}>
+      <nav>asdasd</nav>
+    </div>
+  );
 };
 
 export default Header;

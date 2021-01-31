@@ -1,6 +1,6 @@
 import { ModalType } from './Types';
 
-export const OpenHasAccountModal = (payload = false) => {
+export const OpenModal = (payload = false) => {
    return {
       type: '',
       payload,
