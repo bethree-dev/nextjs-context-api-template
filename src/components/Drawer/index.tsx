@@ -1,16 +1,8 @@
 import React from 'react';
-import { Drawer } from 'antd';
+import { Drawer, DrawerProps } from 'antd';
 import useDrawer from '../../hooks/useDrawer';
 
-type PlacementTypes = 'top' | 'right' | 'bottom' | 'left';
-
-interface SidebarProps {
-   title: string;
-   placement: PlacementTypes;
-   closable?: boolean;
-}
-
-const CustomDrawer: React.FC<SidebarProps> = ({ children, title, placement, closable = false }) => {
+const CustomDrawer: React.FC<DrawerProps> = ({ children, title, placement, closable = false }) => {
    const { CloseDrawer, visible } = useDrawer();
 
    return (
